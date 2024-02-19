@@ -18,13 +18,13 @@
 
 buildscript {
     extra.apply {
-        set("compose_compiler_version", "1.5.3")
-        set("lifecycle_version", "2.6.2")
+        set("compose_compiler_version", "1.5.9")
+        set("lifecycle_version", "2.7.0")
     }
 }
 
 plugins {
-    id("com.android.application") version "8.1.2" apply false
-    id("com.android.library") version "8.1.2" apply false
-    id("org.jetbrains.kotlin.android") version "1.9.10" apply false
+    id("com.android.application") version "8.2.2" apply false
+    id("com.android.library") version "8.2.2" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.22" apply false
 }
